@@ -16,7 +16,7 @@ function Song({song, closeModal}) {
             let duration = `${mins}:0${secs}`
             setDuration(duration)
         }
-    }, [duration])
+    }, [])
 
     return (
         <>
